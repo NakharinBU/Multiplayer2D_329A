@@ -258,7 +258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 121226bd4ea8caf4ba855dee5d3de73f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenu
-  joinCodeField: {fileID: 0}
+  joinCodeField: {fileID: 1594140108}
 --- !u!1 &225076631
 GameObject:
   m_ObjectHideFlags: 0

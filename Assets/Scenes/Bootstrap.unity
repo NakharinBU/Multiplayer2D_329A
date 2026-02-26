@@ -167,6 +167,54 @@ MonoBehaviour:
   connectButton: {fileID: 1161286126}
   minNameLength: 1
   maxNameLength: 12
+--- !u!1 &203503800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 203503802}
+  - component: {fileID: 203503801}
+  m_Layer: 0
+  m_Name: TeamSelector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &203503801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203503800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d7d889e1935cd148b6960e414321236, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TeamSelector
+  colorLookup: {fileID: 11400000, guid: 4b7a988231897874083c152fd0806975, type: 2}
+  playerSprites: []
+  selectionButtons: []
+  teamIndex: 0
+--- !u!4 &203503802
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203503800}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 553.07404, y: 279.07407, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &227387541
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,6 +869,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 203503801}
+        m_TargetAssemblyTypeName: TeamSelector, Assembly-CSharp
+        m_MethodName: SaveTeam
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1161286127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1425,6 +1485,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 1213341871}
   - {fileID: 64286981}
+  - {fileID: 203503802}
   - {fileID: 909556645}
   - {fileID: 227387542}
   - {fileID: 519420032}
