@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5746604207491451126
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -3291350418354334852, guid: 1509f2fdcf8ad554ea28b78956feaa56, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7bfd0a0977e81b84a8f1d12195e5883a, type: 3}
+    - target: {fileID: 413538044383118465, guid: 1509f2fdcf8ad554ea28b78956feaa56, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.87715
+      objectReference: {fileID: 0}
+    - target: {fileID: 413538044383118465, guid: 1509f2fdcf8ad554ea28b78956feaa56, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.41965
+      objectReference: {fileID: 0}
+    - target: {fileID: 413538044383118465, guid: 1509f2fdcf8ad554ea28b78956feaa56, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 413538044383118465, guid: 1509f2fdcf8ad554ea28b78956feaa56, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 413538044383118465, guid: 1509f2fdcf8ad554ea28b78956feaa56, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 413538044383118465, guid: 1509f2fdcf8ad554ea28b78956feaa56, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 413538044383118465, guid: 1509f2fdcf8ad554ea28b78956feaa56, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 413538044383118465, guid: 1509f2fdcf8ad554ea28b78956feaa56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 413538044383118465, guid: 1509f2fdcf8ad554ea28b78956feaa56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 413538044383118465, guid: 1509f2fdcf8ad554ea28b78956feaa56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1289439435387051998, guid: 1509f2fdcf8ad554ea28b78956feaa56, type: 3}
+      propertyPath: m_Name
+      value: BountyCoin
+      objectReference: {fileID: 0}
+    - target: {fileID: 3845679273426890614, guid: 1509f2fdcf8ad554ea28b78956feaa56, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3127228338
+      objectReference: {fileID: 0}
+    - target: {fileID: 3845679273426890614, guid: 1509f2fdcf8ad554ea28b78956feaa56, type: 3}
+      propertyPath: InScenePlacedSourceGlobalObjectIdHash
+      value: 136067612
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1289439435387051998, guid: 1509f2fdcf8ad554ea28b78956feaa56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -4011021486770509631}
+  m_SourcePrefab: {fileID: 100100000, guid: 1509f2fdcf8ad554ea28b78956feaa56, type: 3}
+--- !u!212 &2130990079943056266 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: -3291350418354334852, guid: 1509f2fdcf8ad554ea28b78956feaa56, type: 3}
+  m_PrefabInstance: {fileID: 5746604207491451126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6783837492289935144 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1289439435387051998, guid: 1509f2fdcf8ad554ea28b78956feaa56, type: 3}
+  m_PrefabInstance: {fileID: 5746604207491451126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-4011021486770509631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6783837492289935144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf8b934a7a4019444bb4167355c5532a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BountyCoin
+  ShowTopMostFoldoutHeaderGroup: 1
+  _spriteRenderer: {fileID: 2130990079943056266}

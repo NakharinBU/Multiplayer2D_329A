@@ -361,7 +361,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 34
+  field of view: 60
   orthographic: 1
   orthographic size: 12
   m_Depth: -1
@@ -388,7 +388,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -20}
+  m_LocalPosition: {x: 137.40793, y: -71.091576, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -758,6 +758,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ApplicationController
   clientPrefab: {fileID: 9020167747634486090, guid: ffdd863548d407f43a9b5b995889dc12, type: 3}
   hostPrefab: {fileID: 422557686786893708, guid: be918d4df8b87624a8c9edec067d5ad8, type: 3}
+  playerPrefab: {fileID: 2728731106613819809, guid: 677546f295952b247872c15afda6a72b, type: 3}
 --- !u!4 &1915834516
 Transform:
   m_ObjectHideFlags: 0
